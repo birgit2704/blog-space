@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Blog Space</h2>
+    </header>
+    <main>
+      <div class="general-container">
+        <form id="form">
+          <div>
+            <label for="title">Title</label>
+            <input
+              id="title"
+              type="text"
+              name="text"
+              placeholder="title here"
+            />
+          </div>
+          <div>
+            <label for="post-body">Body</label>
+            <textarea id="post-body" placeholder="write here"></textarea>
+          </div>
+          <input class="submit" type="submit" value="submit" />
+        </form>
+        <div class="post-container" id="post-container">
+          <!-- posts go here -->
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

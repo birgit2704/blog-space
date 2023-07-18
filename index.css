@@ -1,0 +1,65 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+header {
+  position: fixed;
+  height: 50px;
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lumanosimo", cursive;
+  letter-spacing: 2px;
+}
+
+.general-container {
+  padding: 50px 80px 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(226, 211, 240);
+  padding: 20px;
+}
+form > div {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 900;
+}
+
+.submit {
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.submit:hover,
+.submit:focus {
+  background-color: rgb(88, 5, 165);
+}
+
+input,
+textarea {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+}
+textarea {
+  resize: none;
+}
